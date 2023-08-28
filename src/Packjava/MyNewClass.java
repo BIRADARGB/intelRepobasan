@@ -12,7 +12,7 @@ public class MyNewClass {
     //sample project
 @Test
     public void print(){
-        System.out.println("Hi");
+        System.out.println("welcome to selenium");
         ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
