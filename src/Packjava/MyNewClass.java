@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 public class MyNewClass {
     WebDriver driver;
-
+    //sample project
 @Test
     public void print(){
         System.out.println("Hi");
