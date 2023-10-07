@@ -1,5 +1,5 @@
 package Tests;
-
+//sample project
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
@@ -8,7 +8,6 @@ import java.util.concurrent.TimeUnit;
 public class MyTestClass {
     ChromeDriver driver;
 
-    //sample project
     @BeforeTest
     public void setUp(){
         System.out.println("Test case starting now...");
